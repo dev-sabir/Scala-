@@ -12,11 +12,11 @@ object Variables {
 
     // Mutable Variable
     // SYNTAX
-    // var Variable_name: Data_type = "value";
+    // var Variable_name: Data_type = "value"
 
-    var name1: String = "Hello World";
+    var name1: String = "Hello World"
 
-    //We can do somthing like this
+    //We can do something like this
 
     name1 = "Hello"
 
@@ -24,7 +24,7 @@ object Variables {
     // Immutable Variable
     //SYNTAX
     // val Variable_name: Data_type =  "value";
-    val name2: String = "Hello World";
+    val name2: String = "Hello World"
 
     //we can't do this, it give an error
     //name2 = "Hello"
@@ -53,8 +53,8 @@ object Variables {
 
     //VARIABLE TYPE INFERENCE IN SCALA: Scala supports variable type inference. In variable type inference values are directly assigned to the variable without defining its data type, the Scala compiler automatically resolves which value belongs to which data type.
     //  For Example:
-    var name3 = 40;
-    val name4 = "Hello World";
+    var name3 = 40
+    val name4 = "Hello World"
     println(name3)
     println(name4)
     //Here, name1 is by default int type and name2 is by default string type.
